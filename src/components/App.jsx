@@ -7,13 +7,13 @@ import Navigation from "./Navigation/Navigation.jsx";
 import "./App.module.css";
 import "react-toastify/dist/ReactToastify.css";
 
-const HomePage = lazy(() => import("../pages/HomePage/HomePage.jsx"));
-const MoviesPage = lazy(() => import("../pages/MoviesPage/MoviesPage.jsx"));
+const HomePage = lazy(() => import("../mypages/HomePage/HomePage.jsx"));
+const MoviesPage = lazy(() => import("../mypages/MoviesPage/MoviesPage.jsx"));
 const MovieDetailsPage = lazy(() =>
-  import("../pages/MovieDetailsPage/MovieDetailsPage.jsx")
+  import("../mypages/MovieDetailsPage/MovieDetailsPage.jsx")
 );
 const NotFoundPage = lazy(() =>
-  import("../pages/NotFoundPage/NotFoundPage.jsx")
+  import("../mypages/NotFoundPage/NotFoundPage.jsx")
 );
 const MovieCasts = lazy(() => import("./MovieCasts/MovieCasts.jsx"));
 const MovieReviews = lazy(() => import("./MovieReviews/MovieReviews.jsx"));
