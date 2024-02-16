@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import fetchFunctions from "../../service/tmdbApi";
 import Loader from "../../components/Loader/Loader";
 
-import styles from "./MovieCasts.module.css";
+import styles from "./MovieCast.module.css";
 
 const MovieCasts = () => {
   const [casts, setCasts] = useState(null);
@@ -60,4 +60,4 @@ const MovieCasts = () => {
   );
 };
 
-export default MovieCasts;
+export default MovieCast;
